@@ -1,6 +1,6 @@
 # Alpha Drugs
 
-An advanced drug production system for FiveM, featuring customizable drug labs, airdrops, and supplier NPCs.
+An advanced drug production system for FiveM, featuring customizable drug labs, airdrops, and supplier NPCs. Built with ox_lib for modern UI components while maintaining compatibility with multiple frameworks.
 
 ## Features
 
@@ -9,6 +9,7 @@ An advanced drug production system for FiveM, featuring customizable drug labs, 
 - **Airdrop System**: Random airdrops with valuable loot
 - **Supplier NPCs**: Purchase supplies from specialized dealers
 - **Framework Support**: Compatible with ESX, QBCore, and standalone
+- **Modern UI**: Utilizes ox_lib for responsive and customizable interfaces
 
 ## Installation
 
@@ -19,10 +20,12 @@ An advanced drug production system for FiveM, featuring customizable drug labs, 
 
 ## Dependencies
 
-- [ox_lib](https://github.com/overextended/ox_lib)
-- [ox_target](https://github.com/overextended/ox_target) or qb-target
-- [ox_inventory](https://github.com/overextended/ox_inventory) or your preferred inventory
-- oxmysql (for database operations)
+- [ox_lib](https://github.com/overextended/ox_lib) - Used for UI components and utilities
+- [ox_target](https://github.com/overextended/ox_target) - Used for interactions (can be replaced with qb-target if needed)
+- [ox_inventory](https://github.com/overextended/ox_inventory) - Recommended for best experience (compatible with other inventories)
+- [oxmysql](https://github.com/overextended/oxmysql) - Required for database operations
+
+> **Note**: While this resource uses ox_lib for its modern UI components, it maintains compatibility with multiple frameworks including ESX, QBCore, and standalone.
 
 ## Configuration
 
@@ -62,7 +65,7 @@ Supplier NPCs are available to purchase necessary items:
 
 ## Support
 
-For support, please open an issue on our [GitHub repository](https://github.com/yourusername/alpha_drugs). or contact at Alpha07 discord
+For support, please open an issue on our [GitHub repository](https://github.com/Nithish-Core/alpha_drugs). or contact at Alpha07 discord
 
 ## License
 
@@ -71,4 +74,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Credits
 
 - Developed by [Alpha07]
-- Special thanks to the FiveM community
+- Special thanks to the OX FiveM community
